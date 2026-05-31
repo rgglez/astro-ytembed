@@ -1,0 +1,30 @@
+{
+  "name": "@rgglez/astro-ytembed",
+  "version": "0.1.1",
+  "description": "Embed YouTube videos in your Astro pages (Astro/MDX).",
+  "type": "module",
+  "exports": {
+    ".": "./src/YouTubeEmbed.astro"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "astro",
+    "astro-component",
+    "youtube",
+    "embed",
+    "video"
+  ],
+  "author": "Rodolfo González González",
+  "license": "MIT",
+  "peerDependencies": {
+    "astro": ">=4.0.0",
+    "tailwindcss": ">=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "tailwindcss": {
+      "optional": true
+    }
+  }
+}
